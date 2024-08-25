@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import './navbar.css'
+import './navbar.css';
 
 const navItems = [
   { to: "/", text: "Inicio", bg: "bg-pastel-rose", hoverBg: "hover:bg-pastel-rose-light", activeBg: "bg-pastel-rose-dark" },
@@ -14,14 +14,14 @@ const navItems = [
 
 export const Navbar = () => {
   return (
-    <nav className="flex w-fit justify-end items-end ">
+    <nav className="flex w-fit justify-end items-end">
       <ul className="flex items-end">
         {navItems.map(({ to, text, bg, hoverBg, activeBg }) => (
-          <li key={text} className="relative nav-item h-12">
+          <li key={text} className={`relative nav-item`}>
             <NavLink
               to={to}
               className={({ isActive }) =>
-                `${bg} ${hoverBg} px-3 py-2 text-sm font-medium bg-blue-500 h-[inherit] rounded-ss-xl rounded-se-xl flex justify-center items-end pb-1 
+                `${bg} ${hoverBg} px-3 py-2 text-sm font-medium rounded-ss-xl rounded-se-xl flex justify-center items-end pb-1 py-4 
                   ${isActive ? `${activeBg} nav-item-active` : ""}`
               }
             >
