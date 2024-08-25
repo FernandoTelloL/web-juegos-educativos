@@ -1,0 +1,15 @@
+
+
+.nav-item-active {
+    transform: scaleY(1.25);
+  transform-origin: bottom;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.miUL {
+  background-color: red;
+}
