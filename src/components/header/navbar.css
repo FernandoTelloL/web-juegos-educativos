@@ -1,10 +1,15 @@
-
 .nav-item-active {
   height: 80px;
   transition: height 0.3s ease-in-out;
 }
 
 .nav-item {
-  /* height: 48px; */
   transition: height 0.3s ease-in-out;
+}
+
+/* Opcional: Ajustes adicionales para el menú móvil */
+@media (max-width: 767px) {
+  .nav-item {
+    height: auto; /* Permite que el alto sea dinámico */
+  }
 }

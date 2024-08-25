@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
 import './navbar.css';
 
@@ -12,17 +13,21 @@ const navItems = [
   { to: "/grade-6", text: "6° Grado", bg: "bg-pastel-teal", hoverBg: "hover:bg-pastel-teal-light", activeBg: "bg-pastel-teal-dark" }
 ];
 
-export const Navbar = () => {
+export const Navbar = ({ isMobile = false }) => {
   return (
-    <nav className="flex w-fit justify-end items-end">
-      <ul className="flex items-end">
+    <nav className={`flex ${isMobile ? 'flex-col w-full' : 'w-fit'} justify-end items-end`}>
+      <ul className={`flex ${isMobile ? 'flex-col w-full' : 'flex-row'} items-end`}>
         {navItems.map(({ to, text, bg, hoverBg, activeBg }) => (
-          <li key={text} className={`relative nav-item`}>
+          <li key={text} className={`relative nav-item ${isMobile ? 'w-full mb-0' : ''}`}>
             <NavLink
               to={to}
               className={({ isActive }) =>
-                `${bg} ${hoverBg} px-3 py-2 text-sm font-medium rounded-ss-xl rounded-se-xl flex justify-center items-end pb-1 py-4 
-                  ${isActive ? `${activeBg} nav-item-active` : ""}`
+                `
+              ${isMobile ? 'w-full text-center rounded-se-none h-fit py-6 text-xl' : ''}
+              ${bg} ${hoverBg} px-3 py-2 text-sm font-medium rounded-ss-xl rounded-se-xl flex justify-center items-end 
+                  
+                  ${isActive ? `${activeBg} nav-item-active` : ""}
+                `
               }
             >
               {text}

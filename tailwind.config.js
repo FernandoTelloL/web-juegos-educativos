@@ -46,6 +46,13 @@ export default {
         title: '700', // Peso para títulos
       },
     },
+    screens: {
+      'sm': '640px',  // Pequeños dispositivos móviles
+      'md': '768px',  // Tabletas
+      'lg': '1024px', // Laptops
+      'xl': '1280px', // Escritorios
+      '2xl': '1536px',// Pantallas grandes
+    },
     
   },
   plugins: [],
