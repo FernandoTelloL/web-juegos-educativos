@@ -16,9 +16,12 @@ export const Header = () => {
           <img
             src={logo}
             alt="I.E. EL PORVENIR - PATIVILCA"
-            className="h-12 w-12 mr-3"
+            className="h-auto w-14 object-cover mr-3"
           />
-          <h1 className="text-base md:text-xl font-title">I.E. EL PORVENIR - PATIVILCA</h1>
+          <div className="text-base md:text-xl font-title text-center">
+            <p >I.E. EL PORVENIR - PATIVILCA</p>
+            <p>N° 20832</p>
+          </div>
         </div>
 
         {/* Botón de menú móvil */}

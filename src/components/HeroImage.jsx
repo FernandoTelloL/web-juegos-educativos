@@ -9,7 +9,7 @@ const slides = [
   },
   {
     src: '../../src/assets/img/img2.jpeg',
-    title: 'Aprender Jugando, la Mejor Manera',
+    title: 'Aprender Jugando, la Mejor Manera De Aprender',
     text: 'Jugar no es solo diversión, es una forma natural de aprender.',
     textoAlternativo: 'Jugar no es solo diversión; es una forma natural de aprender. A través del juego, los niños exploran, crean y descubren el mundo que los rodea, sentando las bases para el aprendizaje permanente.',
   },
