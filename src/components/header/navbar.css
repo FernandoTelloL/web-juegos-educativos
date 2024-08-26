@@ -1,10 +1,10 @@
 .nav-item-active {
-  height: 80px;
-  transition: height 0.3s ease-in-out;
+  height: 100px;
+  transition: height 0.5s ease-in-out;
 }
 
 .nav-item {
-  transition: height 0.3s ease-in-out;
+  transition: height 0.5s ease-in-out;
 }
 
 /* Opcional: Ajustes adicionales para el menú móvil */
