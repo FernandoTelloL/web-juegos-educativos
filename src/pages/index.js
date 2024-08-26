@@ -1,3 +1,5 @@
+export { BannerPrincipal2 } from "./homePage/BannerPrincipal2";
+
 export { PopularActivities } from "./homePage/PopularActivities";
 
 export { HomePage } from "./homePage/HomePage";
