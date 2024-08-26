@@ -1,3 +1,5 @@
+export { ActivityCard } from "./ActivityCard";
+
 export { HeroImage } from "./HeroImage";
 
 export { Header } from "./header/Header";

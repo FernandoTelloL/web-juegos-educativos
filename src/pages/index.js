@@ -1,4 +1,6 @@
-export { HomePage } from "./HomePage";
+export { PopularActivities } from "./homePage/PopularActivities";
+
+export { HomePage } from "./homePage/HomePage";
 
 export { InitialGrade } from "./InitialGrade";
 
