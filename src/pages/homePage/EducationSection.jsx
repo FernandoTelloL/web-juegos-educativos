@@ -11,37 +11,37 @@ export const EducationSection = () => {
         </svg>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center container md:w-[80%] mx-auto my-11">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center container px-2 md:w-[80%] mx-auto mt-11 mb-24">
 
         {/* Primer ítem */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-8">
           <div className="bg-blue-500 text-white p-4 rounded-full">
             <FaBook size={40} />
           </div>
           <h2 className="text-xl font-bold mt-4">Aprender es Divertido</h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-lg md:text-normal w-[70%] text-gray-600">
             Fomentamos el aprendizaje a través del juego, haciendo que los niños disfruten cada momento en la escuela.
           </p>
         </div>
 
         {/* Segundo ítem */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-8">
           <div className="bg-green-500 text-white p-4 rounded-full">
             <FaChalkboardTeacher size={40} />
           </div>
           <h2 className="text-xl font-bold mt-4">Educación de Calidad</h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-lg md:text-normal w-[70%] text-gray-600">
             Nuestros maestros están comprometidos con brindar la mejor educación a cada estudiante.
           </p>
         </div>
 
         {/* Tercer ítem */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-8">
           <div className="bg-red-500 text-white p-4 rounded-full">
             <FaGamepad size={40} />
           </div>
           <h2 className="text-xl font-bold mt-4">Aprender Jugando</h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-lg md:text-normal w-[70%] text-gray-600">
             Creemos en el poder del juego como una herramienta educativa para desarrollar habilidades clave.
           </p>
         </div>

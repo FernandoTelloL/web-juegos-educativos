@@ -18,13 +18,13 @@ export const Navbar = ({ isMobile = false }) => {
     <nav className={`flex ${isMobile ? 'flex-col w-full' : 'w-fit'} justify-end items-end`}>
       <ul className={`flex ${isMobile ? 'flex-col w-full' : 'flex-row'} items-end`}>
         {navItems.map(({ to, text, bg, hoverBg, activeBg }) => (
-          <li key={text} className={`relative nav-item md:w-[60px] text-center md:min-h-[70px] ${isMobile ? 'w-full mb-0' : ''}`}>
+          <li key={text} className={`relative nav-item md:w-[60px] text-center md:min-h-[70px] md:text-normal ${isMobile ? 'w-full mb-0' : ''}`}>
             <NavLink
               to={to}
               className={({ isActive }) =>
                 `
                 py-4
-                ${isMobile ? 'w-full text-center rounded-se-none h-fit py-6 text-xl' : ''}
+                ${isMobile ? 'w-full text-center rounded-se-none h-fit py-6 text-xl' : 'md:text-normal'}
                 ${bg} ${hoverBg} px-3 py-2 text-sm font-medium rounded-ss-xl rounded-se-xl flex justify-center items-end   
                 ${isActive ? `${activeBg} nav-item-active` : ""}
                 `

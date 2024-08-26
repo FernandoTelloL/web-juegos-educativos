@@ -36,6 +36,7 @@ export default {
         sans: ['Inter', 'sans-serif'], // Configura 'Inter' como la fuente principal
       },
       fontSize: {
+        'normal': '15px',  // Agrega el tamaño de texto personalizado
         base: ['16px', '24px'], // Tamaño base de texto con una línea de 24px
         lg: ['18px', '28px'], // Tamaño grande de texto con una línea de 28px
         title: ['32px', '40px'], // Tamaño de título con una línea de 40px

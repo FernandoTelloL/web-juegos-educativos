@@ -49,7 +49,7 @@ export const PopularActivities = () => {
 
   return (
     <section className="relative mx-auto bg-pastel-orange-dark">
-      <div className="container md:w-[80%] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="container md:w-[80%] mx-auto px-4 py-8">
         <h2 className="text-left text-2xl font-bold mb-8">
           Actividades Más Populares
         </h2>

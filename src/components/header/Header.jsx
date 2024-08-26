@@ -9,7 +9,7 @@ export const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="bg-white  h-[120px] relative md:w-[75vw] mx-auto  ">
+    <header className="bg-white  h-[120px] relative md:w-[80%] mx-auto  ">
       <div className="container mx-auto flex justify-between items-end h-full px-4">
         {/* Logo y nombre del colegio */}
         <div className="flex items-center self-center">
