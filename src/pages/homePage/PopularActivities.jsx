@@ -4,46 +4,47 @@ export const PopularActivities = () => {
   const activities = [
     {
       id: 1,
-      title: 'Juego de Matemáticas',
-      description: 'Mejora tus habilidades matemáticas jugando.',
-      image: 'ruta/a/imagen1.jpg',
-      link: '/juego-matematicas'
+      title: 'Viste a la Princesa',
+      description: 'Multiplica para lograr vestir a la princesa con todos sus vestidos.',
+      image: '../../../src/assets/img/homeImagenes/img10.png',
+      link: 'https://www.digipuzzle.net/minigames/decorate/topmodel/topmodel_multiplications.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-multiplicaciones/index.htm'
     },
     {
       id: 2,
-      title: 'Aventura de Ciencia',
-      description: 'Explora el mundo de la ciencia.',
-      image: 'ruta/a/imagen2.jpg',
-      link: '/aventura-ciencia'
+      title: 'Máquina de Calcular',
+      description: 'Ejercita tu mente con sumas fáciles',
+      image: '../../../src/assets/img/homeImagenes/img8.png',
+      link: 'https://genmagic.net/visualflash.html?id=ser3c'
     },
     {
       id: 3,
-      title: 'Juego de Palabras',
-      description: 'Amplía tu vocabulario mientras juegas.',
-      image: 'ruta/a/imagen3.jpg',
-      link: '/juego-palabras'
+      title: 'Crea tu Calabaza',
+      description: 'Ejercita tu imaginación y crea a tu amiga calabaza a tu gusto.',
+      image: '../../../src/assets/img/homeImagenes/img9.png',
+      link: 'https://cdn.primarygames.com/HTML5/MakeAPumpkin/'
     },
+    
     {
       id: 4,
-      title: 'Música Divertida',
-      description: 'Aprende música de forma divertida.',
-      image: 'ruta/a/imagen4.jpg',
-      link: '/musica-divertida'
+      title: 'Puzzle de Animales y Fracciones',
+      description: 'Practica y aprende fracciones jugando, solo jala la imagen a la fracción correcta para ir ganando puntos.',
+      image: '../../../src/assets/img/homeImagenes/img11.png',
+      link: 'https://www.digipuzzle.net/digipuzzle/animals/puzzles/tilesmath_fractions.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-fracciones/index.htm'
     },
     {
       id: 5,
-      title: 'Historia Interactiva',
-      description: 'Viaja en el tiempo y descubre la historia.',
-      image: 'ruta/a/imagen5.jpg',
-      link: '/historia-interactiva'
+      title: 'Ordena Alfabeticamente',
+      description: 'Ordena alfabéticamente una lista de palabras y practica el abecedario.',
+      image: '../../../src/assets/img/homeImagenes/img12.png',
+      link: 'https://genmagic.net/visualflash.html?id=ordalfa1c'
     },
     {
       id: 6,
-      title: 'Juego de Geografía',
-      description: 'Conoce el mundo jugando.',
-      image: 'ruta/a/imagen6.jpg',
-      link: '/juego-geografia'
-    }
+      title: 'Juego de Puzzle',
+      description: 'Mejora tus concentración jugando.',
+      image: '../../../src/assets/img/homeImagenes/img7.png',
+      link: 'https://genmagic.net/visualflash.html?id=tripuzzle1c'
+    },
   ]
 
   return (

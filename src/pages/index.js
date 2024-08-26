@@ -1,3 +1,5 @@
+export { EducationSection } from "./homePage/EducationSection";
+
 export { BannerPrincipal2 } from "./homePage/BannerPrincipal2";
 
 export { PopularActivities } from "./homePage/PopularActivities";
