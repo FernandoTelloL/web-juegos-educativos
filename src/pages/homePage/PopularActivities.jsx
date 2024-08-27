@@ -48,9 +48,9 @@ export const PopularActivities = () => {
   ]
 
   return (
-    <section className="relative mx-auto bg-pastel-orange-dark">
+    <section className="relative mx-auto bg-pastel-orange-dark pt-14">
       <div className="container md:w-[80%] mx-auto px-4 py-8">
-        <h2 className="text-left text-2xl font-bold mb-8">
+        <h2 className="text-left text-2xl font-bold mb-10">
           Actividades Más Populares
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

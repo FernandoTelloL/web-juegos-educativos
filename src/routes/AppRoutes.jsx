@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { MainLayout } from '../layouts/MainLayout';
-import { Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade } from '../pages';
+import { CommunicationGames, ConcentrationGames, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGames, MemoryGames } from '../pages';
+
 
 export const AppRoutes = () => {
   return (
@@ -8,7 +9,12 @@ export const AppRoutes = () => {
       <Route element={<MainLayout />} >
         <Route path="/" element={<HomePage />} />
         <Route path="/initial" element={<InitialGrade />} />
-        <Route path="/grade-1" element={<Grade1 />} />
+        <Route path="/grade-1" element={<Grade1 />}>
+          <Route path="matematicas" element={<MathGames />} />
+          <Route path="comunicacion" element={<CommunicationGames />} />
+          <Route path="memoria" element={<MemoryGames />} />
+          <Route path="concentracion" element={<ConcentrationGames />} />
+        </Route>
         <Route path="/grade-2" element={<Grade2 />} />
         <Route path="/grade-3" element={<Grade3 />} />
         <Route path="/grade-4" element={<Grade4 />} />
@@ -17,6 +23,5 @@ export const AppRoutes = () => {
         <Route path='*' element={<HomePage />} />
       </Route>
     </Routes>
-  )
-}
-
+  );
+};

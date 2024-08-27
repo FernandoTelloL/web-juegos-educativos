@@ -2,10 +2,10 @@
 
 export const Footer = () => {
   return (
-    <footer className="bg-purple-950 text-white h-[200px]">
-      <div className="container flex flex-col md:flex-row justify-between items-center w-[80%] h-full mx-auto">
+    <footer className="bg-purple-950 text-white h-[250px] md:h-[200px]">
+      <div className="container flex flex-col md:flex-row justify-center md:justify-between items-center w-[80%] h-full mx-auto">
         {/* Primera columna: Insignia del colegio, nombre y número */}
-        <div className="flex items-center mb-4 md:mb-0 gap-3">
+        <div className="flex items-center mb-4 mt-8 md:mt-0 md:mb-0 gap-3">
           <img
             src="../../../src/assets/img/insignia-colegio.png" // Cambia esto por la ruta de la imagen de la insignia
             alt="Insignia del Colegio"
