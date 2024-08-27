@@ -1,3 +1,5 @@
+export { ScrollToTop } from "./ScrollToTop";
+
 export { Footer } from "./footer/Footer";
 
 export { ActivityCard } from "./ActivityCard";

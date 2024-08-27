@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import { Footer, Header, HeroImage } from '../components';
+import { Footer, Header, HeroImage, ScrollToTop } from '../components';
 
 // Dentro del componente MainLayout
 export const MainLayout = () => {
@@ -11,6 +11,7 @@ export const MainLayout = () => {
           <Outlet />
         </main>
         <Footer />
+        <ScrollToTop />
     </div>
   );
 };
