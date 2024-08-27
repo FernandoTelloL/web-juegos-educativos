@@ -1,3 +1,17 @@
+export { ActivitiesGrade2 } from "./grade2/ActivitiesGrade2";
+
+export { AnnouncementsSectionGrade2 } from "./grade2/AnnouncementsSectionGrade2";
+
+export { MemoryGamesInitial } from "./initialGrade/MemoryGamesInitial";
+
+export { MathGamesInitial } from "./initialGrade/MathGamesInitial";
+
+export { ActivitiesInitial } from "./initialGrade/ActivitiesInitial";
+
+export { AnnouncementsInitialSection } from "./initialGrade/AnnouncementsInitialSection";
+
+export { InitialGrade } from "./initialGrade/InitialGrade";
+
 export { ActivitiesGrade1 } from "./grade1/ActivitiesGrade1";
 
 export { ConcentrationGames } from "./grade1/ConcentrationGames";
@@ -20,8 +34,6 @@ export { PopularActivities } from "./homePage/PopularActivities";
 
 export { HomePage } from "./homePage/HomePage";
 
-export { InitialGrade } from "./InitialGrade";
-
 export { Grade6 } from "./Grade6";
 
 export { Grade5 } from "./Grade5";
@@ -30,5 +42,4 @@ export { Grade4 } from "./Grade4";
 
 export { Grade3 } from "./Grade3";
 
-export { Grade2 } from "./Grade2";
-
+export { Grade2 } from "./grade2/Grade2";
