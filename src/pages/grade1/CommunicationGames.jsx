@@ -10,22 +10,25 @@ export const CommunicationGames = () => {
         <ActivityCard
           title="Suma Divertida"
           description="Aprende a sumar jugando."
-          image="/path/to/image1.jpg"
+          image="../../../src/assets/img/homeImagenes/img9.png"
           link="https://ejemplo.com/suma-divertida"
+          border={true}
         />
 
         <ActivityCard
           title="Resta Mágica"
           description="Descubre el mundo de la resta."
-          image="/path/to/image2.jpg"
+          image="../../../src/assets/img/homeImagenes/img8.png"
           link="https://ejemplo.com/resta-magica"
+          border={true}
         />
 
         <ActivityCard
           title="Resta Mágica"
           description="Descubre el mundo de la resta."
-          image="/path/to/image2.jpg"
+          image="../../../src/assets/img/homeImagenes/img7.png"
           link="https://ejemplo.com/resta-magica"
+          border={true}
         />
       </div>
 

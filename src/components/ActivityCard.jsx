@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-export const ActivityCard = ({ title, description, image, link }) => {
+export const ActivityCard = ({ title, description, image, link, border = false }) => {
   return (
     <a
       target="_blank"
       href={link}
-      className="group block rounded-lg shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110 bg-white p-3"
+      className={`group block rounded-lg shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110 bg-white p-4 ${border ? 'border border-gray-400' : 'border-none'}`}
     >
       <img
         src={image}
@@ -16,5 +16,5 @@ export const ActivityCard = ({ title, description, image, link }) => {
         <p className="text-sm text-gray-600">{description}</p>
       </div>
     </a>
-  )
-}
+  );
+};
