@@ -6,7 +6,6 @@ export const Grade1 = () => {
     <>
       <AnnouncementsSection1 />
       <ActivitiesGrade1 />
-
     </>
 
 
