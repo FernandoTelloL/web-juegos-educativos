@@ -11,7 +11,7 @@ export const EducationSection = () => {
         </svg>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center container px-2 md:w-[80%] mx-auto mt-11 mb-24">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center container px-2 md:w-[80%] mx-auto mt-11 mb-12">
 
         {/* Primer ítem */}
         <div className="flex flex-col items-center mt-8">

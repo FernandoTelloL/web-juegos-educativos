@@ -13,13 +13,14 @@ export const Footer = () => {
           />
           <div className="text-center">
             <p className="text-base font-bold">I.E. EL PORVENIR - PATIVILCA</p>
-            <p className="text-normal">N° 20832</p>
+            <p className="font-bold text-base">N° 20832</p>
           </div>
         </div>
 
         {/* Segunda columna: Texto sobre la página web educativa */}
-        <div className="text-center md:text-left md:w-[60%]">
-          <p>Página web educativa desarrollada por el <span className="font-bold"> Aula de Innovación Pedagógica (AIP) - 2024</span></p>
+        <div className="text-center md:text-left md:w-[60%] md:flex md:flex-col items-center mb-8 md:mb-0">
+          <p className="text-base">Página web educativa desarrollada por el <span className="font-bold"> Aula de Innovación Pedagógica (AIP)</span></p>
+          <p>2024</p>
         </div>
       </div>
     </footer>

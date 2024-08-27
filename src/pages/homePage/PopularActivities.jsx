@@ -48,7 +48,7 @@ export const PopularActivities = () => {
   ]
 
   return (
-    <section className="relative mx-auto bg-[#fcb900] pt-14">
+    <section className="relative mx-auto bg-[#fcb900] pt-8 md:pt-14">
       <div className="container md:w-[80%] mx-auto px-4 py-8">
         <h2 className="text-left text-2xl font-bold mb-10">
           Actividades Más Populares

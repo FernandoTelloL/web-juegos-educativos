@@ -33,7 +33,7 @@ export default {
         'pastel-teal-dark': '#A2C8C8',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Configura 'Inter' como la fuente principal
+        sans: ["Quicksand", "sans-serif"]
       },
       fontSize: {
         'normal': '15px',  // Agrega el tamaño de texto personalizado

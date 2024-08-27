@@ -57,12 +57,12 @@ export const HeroImage = () => {
               className="w-full object-cover h-[500px]"
             />
             {/* Capa negra semitransparente usando after */}
-            <div className="absolute inset-0 before:absolute before:inset-0 before:bg-black before:opacity-60 before:content-[''] flex items-start md:items-center justify-center">
+            <div className="absolute inset-0 before:absolute before:inset-0 before:bg-black before:opacity-65 before:content-[''] flex items-start md:items-center justify-center">
               <div className="text-center z-10 flex flex-col justify-center items-center mt-8 md:mt-0">
-                <h1 className="text-xl md:text-5xl font-extrabold text-white mb-4">
+                <h1 className="text-2xl md:text-5xl font-extrabold text-white mb-4 w-[85%]">
                   {slide.title}
                 </h1>
-                <p className="text-lg md:text-xl text-white font-bold w-[70%] md:w-1/2">
+                <p className="text-xl md:text-2xl text-white font-bold w-[80%] md:w-1/2">
                   {slide.text}
                 </p>
               </div>
