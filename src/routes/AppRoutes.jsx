@@ -10,10 +10,10 @@ export const AppRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/initial" element={<InitialGrade />} />
         <Route path="/grade-1" element={<Grade1 />}>
-          <Route path="matematicas" element={<MathGames />} />
-          <Route path="comunicacion" element={<CommunicationGames />} />
-          <Route path="memoria" element={<MemoryGames />} />
-          <Route path="concentracion" element={<ConcentrationGames />} />
+          <Route path="matematicas-grade1" element={<MathGames />} />
+          <Route path="comunicacion-grade1" element={<CommunicationGames />} />
+          <Route path="memoria-grade1" element={<MemoryGames />} />
+          <Route path="concentracion-grade1" element={<ConcentrationGames />} />
         </Route>
         <Route path="/grade-2" element={<Grade2 />} />
         <Route path="/grade-3" element={<Grade3 />} />
