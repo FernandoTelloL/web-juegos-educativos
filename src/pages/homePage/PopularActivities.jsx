@@ -6,43 +6,43 @@ export const PopularActivities = () => {
       id: 1,
       title: 'Viste a la Princesa',
       description: 'Multiplica para lograr vestir a la princesa con todos sus vestidos.',
-      image: '../../../src/assets/img/homeImagenes/img10.png',
+      image: './assets/img/homeImagenes/img10.png',
       link: 'https://www.digipuzzle.net/minigames/decorate/topmodel/topmodel_multiplications.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-multiplicaciones/index.htm'
     },
     {
       id: 2,
       title: 'Máquina de Calcular',
       description: 'Ejercita tu mente con sumas fáciles',
-      image: '../../../src/assets/img/homeImagenes/img8.png',
+      image: './assets/img/homeImagenes/img8.png',
       link: 'https://genmagic.net/visualflash.html?id=ser3c'
     },
     {
       id: 3,
       title: 'Crea tu Calabaza',
       description: 'Ejercita tu imaginación y crea a tu amiga calabaza a tu gusto.',
-      image: '../../../src/assets/img/homeImagenes/img9.png',
+      image: './assets/img/homeImagenes/img9.png',
       link: 'https://cdn.primarygames.com/HTML5/MakeAPumpkin/'
     },
-    
+
     {
       id: 4,
       title: 'Puzzle de Animales y Fracciones',
       description: 'Practica y aprende fracciones jugando, solo jala la imagen a la fracción correcta para ir ganando puntos.',
-      image: '../../../src/assets/img/homeImagenes/img11.png',
+      image: './assets/img/homeImagenes/img11.png',
       link: 'https://www.digipuzzle.net/digipuzzle/animals/puzzles/tilesmath_fractions.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-fracciones/index.htm'
     },
     {
       id: 5,
       title: 'Ordena Alfabeticamente',
       description: 'Ordena alfabéticamente una lista de palabras y practica el abecedario.',
-      image: '../../../src/assets/img/homeImagenes/img12.png',
+      image: './assets/img/homeImagenes/img12.png',
       link: 'https://genmagic.net/visualflash.html?id=ordalfa1c'
     },
     {
       id: 6,
       title: 'Juego de Puzzle',
       description: 'Mejora tus concentración jugando.',
-      image: '../../../src/assets/img/homeImagenes/img7.png',
+      image: './assets/img/homeImagenes/img7.png',
       link: 'https://genmagic.net/visualflash.html?id=tripuzzle1c'
     },
   ]
@@ -65,7 +65,7 @@ export const PopularActivities = () => {
           ))}
         </div>
       </div>
-      
+
       {/* SVG de Olas */}
       {/* <div className="absolute bottom-0 left-0 w-full">
         <svg

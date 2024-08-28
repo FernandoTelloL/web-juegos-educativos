@@ -5,7 +5,7 @@ export const BannerPrincipal2 = () => {
       <div className="relative h-[42rem] overflow-hidden">
         {/* Imagen de fondo con capa negra semitransparente */}
         <img
-          src="../../../src/assets/img/homeImagenes/img13.jpg"
+          src="./assets/img/homeImagenes/img13.jpg"
           alt="Imagen educativa"
           className="w-full h-full object-cover"
         />
@@ -24,7 +24,7 @@ export const BannerPrincipal2 = () => {
       <div className="absolute top-0 left-0 w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 160" 
+          viewBox="0 0 1440 160"
           className="w-full h-auto"
         >
           <path
