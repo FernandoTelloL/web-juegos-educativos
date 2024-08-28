@@ -7,7 +7,7 @@ export const Footer = () => {
         {/* Primera columna: Insignia del colegio, nombre y número */}
         <div className="flex items-center mb-4 mt-8 md:mt-0 md:mb-0 gap-3">
           <img
-            src="./src/assets/img/insignia-colegio.png" // Cambia esto por la ruta de la imagen de la insignia
+            src="./../src/assets/img/insignia-colegio.png" // Cambia esto por la ruta de la imagen de la insignia
             alt="Insignia del Colegio"
             className="w-20 h-auto object-cover"
           />
