@@ -10,7 +10,7 @@ export const ConcentrationGames = () => {
         <ActivityCard
           title="Suma Divertida"
           description="Aprende a sumar jugando."
-          image="../../../src/assets/img/homeImagenes/img12.png"
+          image="./assets/img/homeImagenes/img12.png"
           link="https://ejemplo.com/suma-divertida"
           border={true}
         />
@@ -18,7 +18,7 @@ export const ConcentrationGames = () => {
         <ActivityCard
           title="Resta Mágica"
           description="Descubre el mundo de la resta."
-          image="../../../src/assets/img/homeImagenes/img11.png"
+          image="./assets/img/homeImagenes/img11.png"
           link="https://ejemplo.com/resta-magica"
           border={true}
         />
@@ -26,7 +26,7 @@ export const ConcentrationGames = () => {
         <ActivityCard
           title="Resta Mágica"
           description="Descubre el mundo de la resta."
-          image="../../../src/assets/img/homeImagenes/img10.png"
+          image="./assets/img/homeImagenes/img10.png"
           link="https://ejemplo.com/resta-magica"
           border={true}
         />
