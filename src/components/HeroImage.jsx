@@ -2,7 +2,7 @@ import Slider from 'react-slick';
 
 const slides = [
   {
-    src: './../../src/assets/img/img1.jpeg',
+    src: './../assets/img/img1.jpeg',
     title: 'El Poder de la Curiosidad Infantil',
     text: 'Los niños nos enseñan que la curiosidad es la llave que abre las puertas del conocimiento.',
     textoAlternativo: 'Los niños nos enseñan que la curiosidad es la llave que abre las puertas del conocimiento. Su capacidad de asombro es una poderosa herramienta de aprendizaje que los adultos no debemos olvidar.',
