@@ -1,3 +1,7 @@
+export { AnnouncementsSectionGrade4 } from "./grade4/AnnouncementsSectionGrade4";
+
+export { Grade4 } from "./grade4/Grade4";
+
 export { ActivitiesGrade3 } from "./grade3/ActivitiesGrade3";
 
 export { Grade3 } from "./grade3/Grade3";
@@ -41,7 +45,5 @@ export { HomePage } from "./homePage/HomePage";
 export { Grade6 } from "./Grade6";
 
 export { Grade5 } from "./Grade5";
-
-export { Grade4 } from "./Grade4";
 
 export { Grade2 } from "./grade2/Grade2";
