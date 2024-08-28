@@ -37,8 +37,20 @@ export const AppRoutes = () => {
           <Route path="concentracion-grade3" element={<ConcentrationGames />} />
         </Route>
 
-        <Route path="/grade-4" element={<Grade4 />} />
-        <Route path="/grade-5" element={<Grade5 />} />
+        <Route path="/grade-4" element={<Grade4 />} >
+          <Route path="matematicas-grade3" element={<MathGames />} />
+          <Route path="comunicacion-grade3" element={<CommunicationGames />} />
+          <Route path="memoria-grade3" element={<MemoryGames />} />
+          <Route path="concentracion-grade3" element={<ConcentrationGames />} />
+        </Route>
+
+        <Route path="/grade-5" element={<Grade5 />} >
+          <Route path="matematicas-grade3" element={<MathGames />} />
+          <Route path="comunicacion-grade3" element={<CommunicationGames />} />
+          <Route path="memoria-grade3" element={<MemoryGames />} />
+          <Route path="concentracion-grade3" element={<ConcentrationGames />} />
+        </Route>
+
         <Route path="/grade-6" element={<Grade6 />} />
         <Route path='*' element={<HomePage />} />
       </Route>

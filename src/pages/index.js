@@ -1,3 +1,9 @@
+export { AnnouncementsSectionGrade6 } from "./grade6/AnnouncementsSectionGrade6";
+
+export { AnnouncementsSectionGrade5 } from "./grade5/AnnouncementsSectionGrade5";
+
+export { ActivitiesGrade4 } from "./grade4/ActivitiesGrade4";
+
 export { AnnouncementsSectionGrade4 } from "./grade4/AnnouncementsSectionGrade4";
 
 export { Grade4 } from "./grade4/Grade4";
@@ -42,8 +48,8 @@ export { PopularActivities } from "./homePage/PopularActivities";
 
 export { HomePage } from "./homePage/HomePage";
 
-export { Grade6 } from "./Grade6";
+export { Grade6 } from "./grade6/Grade6";
 
-export { Grade5 } from "./Grade5";
+export { Grade5 } from "./grade5/Grade5";
 
 export { Grade2 } from "./grade2/Grade2";
