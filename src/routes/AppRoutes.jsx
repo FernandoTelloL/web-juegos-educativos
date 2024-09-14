@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { MainLayout } from '../layouts/MainLayout';
-import { CommunicationGames, ConcentrationGames, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGames, MathGamesInitial, MemoryGames, MemoryGamesInitial } from '../pages';
+import { CommunicationGames, ConcentrationGames, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGamesGrade1, MathGamesGrade2, MathGamesInitial, MemoryGames, MemoryGamesInitial } from '../pages';
 
 
 export const AppRoutes = () => {
@@ -17,35 +17,38 @@ export const AppRoutes = () => {
         </Route>
 
         <Route path="/grade-1" element={<Grade1 />}>
-          <Route path="matematicas-grade1" element={<MathGames />} />
+          <Route path="matematicas-grade1" element={<MathGamesGrade1 />} />
           <Route path="comunicacion-grade1" element={<CommunicationGames />} />
           <Route path="memoria-grade1" element={<MemoryGames />} />
           <Route path="concentracion-grade1" element={<ConcentrationGames />} />
         </Route>
 
         <Route path="/grade-2" element={<Grade2 />} >
-          <Route path="matematicas-grade2" element={<MathGames />} />
+          <Route path="matematicas-grade2" element={<MathGamesGrade2 />} />
           <Route path="comunicacion-grade2" element={<CommunicationGames />} />
           <Route path="memoria-grade2" element={<MemoryGames />} />
           <Route path="concentracion-grade2" element={<ConcentrationGames />} />
         </Route>
 
         <Route path="/grade-3" element={<Grade3 />} >
-          <Route path="matematicas-grade3" element={<MathGames />} />
+        {/* TODO: MODIFICAR LAS RUTAS DE LAS MATEMATICAS DE LA GRADO 3 */}
+          <Route path="matematicas-grade3" element={<MathGamesGrade1 />} />
           <Route path="comunicacion-grade3" element={<CommunicationGames />} />
           <Route path="memoria-grade3" element={<MemoryGames />} />
           <Route path="concentracion-grade3" element={<ConcentrationGames />} />
         </Route>
 
         <Route path="/grade-4" element={<Grade4 />} >
-          <Route path="matematicas-grade3" element={<MathGames />} />
+        {/* TODO: MODIFICAR LAS RUTAS DE LAS MATEMATICAS DE LA GRADO 4 */}
+          <Route path="matematicas-grade3" element={<MathGamesGrade1/>} />
           <Route path="comunicacion-grade3" element={<CommunicationGames />} />
           <Route path="memoria-grade3" element={<MemoryGames />} />
           <Route path="concentracion-grade3" element={<ConcentrationGames />} />
         </Route>
 
         <Route path="/grade-5" element={<Grade5 />} >
-          <Route path="matematicas-grade3" element={<MathGames />} />
+        {/* TODO: MODIFICAR LAS RUTAS DE LAS MATEMATICAS DE LA GRADO 5 */}
+          <Route path="matematicas-grade3" element={<MathGamesGrade1 />} />
           <Route path="comunicacion-grade3" element={<CommunicationGames />} />
           <Route path="memoria-grade3" element={<MemoryGames />} />
           <Route path="concentracion-grade3" element={<ConcentrationGames />} />

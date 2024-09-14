@@ -2,31 +2,31 @@ import Slider from 'react-slick';
 
 const slides = [
   {
-    src: './assets/img/img1.jpeg',
+    src: './assets/img/homeImagenes/hero-images/img1.jpeg',
     title: 'El Poder de la Curiosidad Infantil',
     text: 'Los niños nos enseñan que la curiosidad es la llave que abre las puertas del conocimiento.',
     textoAlternativo: 'Los niños nos enseñan que la curiosidad es la llave que abre las puertas del conocimiento. Su capacidad de asombro es una poderosa herramienta de aprendizaje que los adultos no debemos olvidar.',
   },
   {
-    src: './assets/img/img2.jpeg',
+    src: './assets/img/homeImagenes/hero-images/img2.jpeg',
     title: 'Aprender Jugando, la Mejor Manera De Aprender',
     text: 'Jugar no es solo diversión, es una forma natural de aprender.',
     textoAlternativo: 'Jugar no es solo diversión; es una forma natural de aprender. A través del juego, los niños exploran, crean y descubren el mundo que los rodea, sentando las bases para el aprendizaje permanente.',
   },
   {
-    src: './assets/img/img3.jpeg',
+    src: './assets/img/homeImagenes/hero-images/img3.jpeg',
     title: 'Educar con Amor y Paciencia',
     text: 'La educación es más que libros y exámenes. Es guiar con amor y entender con paciencia.',
     textoAlternativo: 'La educación es más que libros y exámenes. Es guiar con amor, entender con paciencia, y sembrar las semillas del conocimiento en un suelo fértil de confianza y respeto.',
   },
   {
-    src: './assets/img/img4.jpeg',
+    src: './assets/img/homeImagenes/hero-images/img4.jpeg',
     title: 'El Juego: Un Puente hacia el Conocimiento',
     text: 'El juego es el puente que conecta la imaginación con la realidad y asi los niños aprenden cosas importantes para la vida.',
     textoAlternativo: 'El juego es el puente que conecta la imaginación con la realidad. A través de él, los niños no solo se divierten, sino que también desarrollan habilidades cruciales para la vida.',
   },
   {
-    src: './assets/img/img5.jpeg',
+    src: './assets/img/homeImagenes/hero-images/img5.jpeg',
     title: 'La Educación, un Viaje sin Fin',
     text: 'Aprender es un viaje que comienza en la infancia y nunca termina.',
     textoAlternativo: 'Aprender es un viaje que comienza en la infancia y nunca termina. Cada experiencia, cada juego, y cada lección son pasos que nos acercan a ser la mejor versión de nosotros mismos.',

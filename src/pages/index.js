@@ -1,3 +1,11 @@
+export { MathGamesGrade1 } from "./grade1/MathGamesGrade1";
+
+export { ActivitiesGrade6 } from "./grade6/ActivitiesGrade6";
+
+export { ActivitiesGrade5 } from "./grade5/ActivitiesGrade5";
+
+export { MathGamesGrade2 } from "./grade2/MathGamesGrade2";
+
 export { AnnouncementsSectionGrade6 } from "./grade6/AnnouncementsSectionGrade6";
 
 export { AnnouncementsSectionGrade5 } from "./grade5/AnnouncementsSectionGrade5";
@@ -32,8 +40,6 @@ export { ConcentrationGames } from "./grade1/ConcentrationGames";
 
 export { MemoryGames } from "./grade1/MemoryGames";
 
-export { MathGames } from "./grade1/MathGames";
-
 export { CommunicationGames } from "./grade1/CommunicationGames";
 
 export { AnnouncementsSection1 } from "./grade1/AnnouncementsSection1";
@@ -53,3 +59,5 @@ export { Grade6 } from "./grade6/Grade6";
 export { Grade5 } from "./grade5/Grade5";
 
 export { Grade2 } from "./grade2/Grade2";
+
+

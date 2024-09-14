@@ -48,7 +48,7 @@ export const ActivitiesInitial = () => {
       {/* Subtítulo o contenido del Outlet */}
       <div className="mt-10">
         {!categorySelected && (
-          <div className="border-2 border-black rounded-xl p-8 md:p-14 h-52 md:h-60 flex items-center shadow-xl bg-red-100">
+          <div className="border-2 border-black rounded-xl p-8 md:p-14 h-52 md:h-60 flex items-center shadow-xl bg-yellow-100">
             <h2 className="text-xl md:text-3xl text-center font-bold">
               POR FAVOR ELIJA UNA CATEGORIA PARA VISUALIZAR LAS ACTIVIDADES EDUCATIVAS
             </h2>

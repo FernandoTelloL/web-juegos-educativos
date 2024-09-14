@@ -12,8 +12,8 @@ export const ActivityCard = ({ title, description, image, link, border = false }
         className="w-full h-48 object-cover rounded-lg"
       />
       <div className="my-3">
-        <h3 className="text-lg font-semibold mb-2">{title}</h3>
-        <p className="text-sm text-gray-600">{description}</p>
+        <h3 className="text-lg font-bold mb-2">{title}</h3>
+        <p className="text-sm text-gray-700">{description}</p>
       </div>
     </a>
   );
