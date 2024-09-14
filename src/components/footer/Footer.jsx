@@ -20,7 +20,7 @@ export const Footer = () => {
         {/* Segunda columna: Texto sobre la página web educativa */}
         <div className="text-center md:text-left md:w-[60%] md:flex md:flex-col items-center mb-8 md:mb-0">
           <p className="text-base">Página web educativa desarrollada por el <span className="font-bold"> Aula de Innovación Pedagógica (AIP)</span></p>
-          <p>2024</p>
+          <p>Doc. Fernando Tello León - 2024</p>
         </div>
       </div>
     </footer>
