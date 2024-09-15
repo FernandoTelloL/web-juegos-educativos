@@ -5,13 +5,13 @@ export const PopularActivities = () => {
     {
       id: 1,
       title: 'Viste a la Princesa',
-      description: 'Multiplica para lograr vestir a la princesa con todos sus vestidos.',
+      description: 'Multiplica para lograr vestir a la princesa con todos sus trajes, diviertete aprendiendo.',
       image: './assets/img/homeImagenes/img10.png',
       link: 'https://www.digipuzzle.net/minigames/decorate/topmodel/topmodel_multiplications.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-multiplicaciones/index.htm'
     },
     {
       id: 2,
-      title: 'Máquina de Calcular',
+      title: 'Máquina de Calcular Sumas',
       description: 'Ejercita tu mente con sumas fáciles',
       image: './assets/img/homeImagenes/img8.png',
       link: 'https://genmagic.net/visualflash.html?id=ser3c'
@@ -23,7 +23,6 @@ export const PopularActivities = () => {
       image: './assets/img/homeImagenes/img9.png',
       link: 'https://cdn.primarygames.com/HTML5/MakeAPumpkin/'
     },
-
     {
       id: 4,
       title: 'Puzzle de Animales y Fracciones',
