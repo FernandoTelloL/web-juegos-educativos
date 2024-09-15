@@ -2,23 +2,25 @@ import { ActivityCard } from "../../components";
 import { usePagination } from "../../hooks/usePagination"; // Ruta del hook
 import { PaginationControls } from '../../components/PaginationControls'; // Importa el componente de paginación
 
-export const MathGamesGrade1 = () => {
+
+export const CommunicationGamesGrade1 = () => {
+
   // Array de objetos JSON con la información de los cards
   const games = [
     {
       id: 1,
-      title: "Ayuda a Don Sapo",
-      description: "Don sapo quiere cruzar el camino pero necesita tu ayuda, usando sucesiones de números de 2 puedes ayudarlo a cruzar el camino.",
-      image: "./../assets/img/grade1Imagenes/img6.png",
-      link: "https://arbolabcgames.top/M57BC/",
+      title: "Ordena Silabas con el Señor Ratón",
+      description: "Ordena las silabas que faltan y ayuda a que el señor ratón llegue a su destino, diviertete y practica tus habilidades con las palabras.",
+      image: "./../assets/img/grade1Imagenes/img7.png",
+      link: "https://arbolabcgames.top/L34AB/",
       border: true,
     },
     {
       id: 2,
-      title: "Bingo de Sumas",
-      description: "Juega este divertido bingo, logra alinear 3 estrellas y rescata a los peces usando las matemáticas y lograr pasar al siguiente bingo. Es un juego corto pero divertido.",
-      image: "./../assets/img/grade1Imagenes/img2.png",
-      link: "https://www.educaenvivo.com/juegos-educativos-online/bingo-sumas/",
+      title: "Arregla La Oración",
+      description: "Estas oraciones tienen algunos números en vez de letras, arregla las oraciones para ayudar al payaso a decir lo que piensa.",
+      image: "./../assets/img/grade1Imagenes/img8.png",
+      link: "https://genmagic.net/visualflash.html?id=lleng6c",
       border: true,
     },
     {
@@ -60,7 +62,7 @@ export const MathGamesGrade1 = () => {
 
   return (
     <>
-      <h2 className="text-3xl md:text-2xl font-bold mb-6">MÁTEMATICAS</h2>
+      <h2 className="text-3xl md:text-2xl font-bold mb-6">COMUNICACIÓN</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {currentItems.map((game) => (
@@ -84,4 +86,4 @@ export const MathGamesGrade1 = () => {
       />
     </>
   );
-};
+}
