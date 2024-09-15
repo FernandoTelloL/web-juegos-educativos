@@ -4,7 +4,7 @@ import './navbar.css';
 
 const navItems = [
   { to: "/", text: "Página Inicio", bg: "bg-pastel-rose", hoverBg: "hover:bg-pastel-rose-light", activeBg: "bg-pastel-rose-dark" },
-  { to: "/initial", text: "Nivel Inicial", bg: "bg-pastel-blue", hoverBg: "hover:bg-pastel-blue-light", activeBg: "bg-pastel-blue-dark" },
+  // { to: "/initial", text: "Nivel Inicial", bg: "bg-pastel-blue", hoverBg: "hover:bg-pastel-blue-light", activeBg: "bg-pastel-blue-dark" },
   { to: "/grade-1", text: "1° Grado", bg: "bg-pastel-yellow", hoverBg: "hover:bg-pastel-yellow-light", activeBg: "bg-pastel-yellow-dark" },
   { to: "/grade-2", text: "2° Grado", bg: "bg-pastel-green", hoverBg: "hover:bg-pastel-green-light", activeBg: "bg-pastel-green-dark" },
   { to: "/grade-3", text: "3° Grado", bg: "bg-pastel-orange", hoverBg: "hover:bg-pastel-orange-light", activeBg: "bg-pastel-orange-dark" },

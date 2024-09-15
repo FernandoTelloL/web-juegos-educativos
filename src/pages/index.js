@@ -1,3 +1,7 @@
+export { EntertainmentGrade1 } from "./grade1/EntertainmentGrade1";
+
+export { OtherGamesGrade1 } from "./grade1/OtherGamesGrade1";
+
 export { CommunicationGamesGrade1 } from "./grade1/CommunicationGamesGrade1";
 
 export { MathGamesGrade1 } from "./grade1/MathGamesGrade1";
@@ -38,10 +42,6 @@ export { InitialGrade } from "./initialGrade/InitialGrade";
 
 export { ActivitiesGrade1 } from "./grade1/ActivitiesGrade1";
 
-export { ConcentrationGames } from "./grade1/ConcentrationGames";
-
-export { MemoryGames } from "./grade1/MemoryGames";
-
 export { AnnouncementsSection1 } from "./grade1/AnnouncementsSection1";
 
 export { Grade1 } from "./grade1/Grade1";
@@ -59,4 +59,3 @@ export { Grade6 } from "./grade6/Grade6";
 export { Grade5 } from "./grade5/Grade5";
 
 export { Grade2 } from "./grade2/Grade2";
-

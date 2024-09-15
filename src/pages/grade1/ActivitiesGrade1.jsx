@@ -23,14 +23,14 @@ export const ActivitiesGrade1 = () => {
     {
       id: 3,
       title: "Otros",
-      link: "memoria-grade1",
+      link: "otros-grade1",
       bgColor: "bg-yellow-500",
       bgColorHover: "bg-yellow-600",
     },
     {
       id: 4,
       title: "Entretenimiento",
-      link: "concentracion-grade1",
+      link: "entretenimiento-grade1",
       bgColor: "bg-red-500",
       bgColorHover: "bg-red-600",
     },
