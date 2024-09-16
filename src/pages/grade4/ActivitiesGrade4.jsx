@@ -9,14 +9,14 @@ export const ActivitiesGrade4 = () => {
     {
       id: 1,
       title: "Matemáticas",
-      link: "matematicas-grade4",
+      link: "matematicas-grade2",
       bgColor: "bg-blue-500",
       bgColorHover: "bg-blue-600",
     },
     {
       id: 2,
       title: "Comunicación",
-      link: "comunicacion-grade4",
+      link: "comunicacion-grade2",
       bgColor: "bg-green-500",
       bgColorHover: "bg-green-600",
     },
