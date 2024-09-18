@@ -65,6 +65,27 @@ export const PopularActivities = () => {
       image: './assets/img/homeImagenes/img16.png',
       link: 'https://wordwall.net/es/resource/8869766/palabras-esdr%C3%BAjulas-llanas-y-agudas'
     },
+    {
+      id: 10,
+      title: 'Rompecabeza de Fracciones',
+      description: 'Coloca las piezas del rompecabeza de acuerdo a la fracción que corresponde y logra ganar puntos.',
+      image: './assets/img/homeImagenes/img50.png',
+      link: 'https://www.digipuzzle.net/digipuzzle/animals/puzzles/tilesmath_fractions_rev.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
+    {
+      id: 11,
+      title: 'Compara las Fracciones',
+      description: 'Elige entre dos opciones de fracciones y logra ganar puntos, diviertete aprendiendo.',
+      image: './assets/img/homeImagenes/img51.png',
+      link: 'https://www.digipuzzle.net/minigames/mathcompare/mathcompare_fractions.htm?language=spanish&linkback=../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
+    {
+      id: 12,
+      title: 'Burbujas de Fracciones',
+      description: 'Lleva la carita feliz haciendo click sobre ella y elige todas las fracciones correctas tienes que evitar que las burbujas equivocadas te toquen.',
+      image: './assets/img/homeImagenes/img52.png',
+      link: 'https://www.digipuzzle.net/minigames/bubble/bubble_fractions.htm?language=spanish&linkback=../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
   ]
 
   return (
