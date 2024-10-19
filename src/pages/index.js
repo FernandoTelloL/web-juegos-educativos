@@ -1,3 +1,13 @@
+export { EntertainmentGrade3 } from "./grade3/EntertainmentGrade3";
+
+export { OtherGamesGrade3 } from "./grade3/OtherGamesGrade3";
+
+export { AllGrade3 } from "./grade3/AllGrade3";
+
+export { CommunicationGamesGrade3 } from "./grade3/CommunicationGamesGrade3";
+
+export { MathGamesGrade3 } from "./grade3/MathGamesGrade3";
+
 export { EntertainmentGrade2 } from "./grade2/EntertainmentGrade2";
 
 
