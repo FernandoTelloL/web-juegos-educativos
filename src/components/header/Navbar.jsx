@@ -3,8 +3,7 @@ import { NavLink } from "react-router-dom";
 import './navbar.css';
 
 const navItems = [
-  { to: "/", text: "Página Inicio", bg: "bg-pastel-rose", hoverBg: "hover:bg-pastel-rose-light", activeBg: "bg-pastel-rose-dark" },
-  // { to: "/initial", text: "Nivel Inicial", bg: "bg-pastel-blue", hoverBg: "hover:bg-pastel-blue-light", activeBg: "bg-pastel-blue-dark" },
+  { to: "/", text: "Página Inicio", bg: "bg-pastel-rose", hoverBg: "hover:bg-pastel-rose-dark", activeBg: "bg-pastel-rose-dark" },
   { to: "/grade-1", text: "1° Grado", bg: "bg-pastel-yellow", hoverBg: "hover:bg-pastel-yellow-light", activeBg: "bg-pastel-yellow-dark" },
   { to: "/grade-2", text: "2° Grado", bg: "bg-pastel-green", hoverBg: "hover:bg-pastel-green-light", activeBg: "bg-pastel-green-dark" },
   { to: "/grade-3", text: "3° Grado", bg: "bg-pastel-orange", hoverBg: "hover:bg-pastel-orange-light", activeBg: "bg-pastel-orange-dark" },
@@ -18,7 +17,7 @@ export const Navbar = ({ isMobile = false }) => {
     <nav className={`flex ${isMobile ? 'flex-col w-full' : 'w-fit'} justify-end items-end`}>
       <ul className={`flex ${isMobile ? 'flex-col w-full' : 'flex-row'} items-end`}>
         {navItems.map(({ to, text, bg, hoverBg, activeBg }) => (
-          <li key={text} className={`relative nav-item md:w-[60px] text-center md:min-h-[70px] md:text-normal ${isMobile ? 'w-full mb-0' : ''}`}>
+          <li key={text} className={`shadow-lg shadow-black/40 relative nav-item md:w-[60px] text-center md:min-h-[70px] md:text-normal ${isMobile ? 'w-full mb-0' : ''}`}>
             <NavLink
               to={to}
               className={({ isActive }) =>

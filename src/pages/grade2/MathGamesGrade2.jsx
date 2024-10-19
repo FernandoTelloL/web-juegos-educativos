@@ -5,7 +5,7 @@ import { usePagination } from "../../hooks/usePagination";
 
 export const MathGamesGrade2 = () => {
  // Array de objetos JSON con la información de los cards
- const games = [
+const games = [
   {
     id: 1,
     title: 'Viste a la Princesa',
