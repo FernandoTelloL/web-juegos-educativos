@@ -86,6 +86,90 @@ export const PopularActivities = () => {
       image: './assets/img/homeImagenes/img52.png',
       link: 'https://www.digipuzzle.net/minigames/bubble/bubble_fractions.htm?language=spanish&linkback=../../es/juegoseducativos/mates-fracciones/index.htm'
     },
+    {
+      id: 13,
+      title: 'Viste a la Princesa',
+      description: 'Multiplica para lograr vestir a la princesa con todos sus trajes, diviertete aprendiendo.',
+      image: './assets/img/homeImagenes/img10.png',
+      link: 'https://www.digipuzzle.net/minigames/decorate/topmodel/topmodel_multiplications.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-multiplicaciones/index.htm'
+    },
+    {
+      id: 14,
+      title: 'Máquina de Calcular Sumas',
+      description: 'Ejercita tu mente con sumas fáciles',
+      image: './assets/img/homeImagenes/img8.png',
+      link: 'https://genmagic.net/visualflash.html?id=ser3c'
+    },
+    {
+      id: 15,
+      title: 'Crea tu Calabaza',
+      description: 'Ejercita tu imaginación y crea a tu amiga calabaza a tu gusto.',
+      image: './assets/img/homeImagenes/img9.png',
+      link: 'https://cdn.primarygames.com/HTML5/MakeAPumpkin/'
+    },
+    {
+      id: 16,
+      title: 'Puzzle de Animales y Fracciones',
+      description: 'Practica y aprende fracciones jugando, solo jala la imagen a la fracción correcta para ir ganando puntos.',
+      image: './assets/img/homeImagenes/img11.png',
+      link: 'https://www.digipuzzle.net/digipuzzle/animals/puzzles/tilesmath_fractions.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
+    {
+      id: 17,
+      title: 'Ordena Alfabeticamente',
+      description: 'Ordena alfabéticamente una lista de palabras y practica el abecedario.',
+      image: './assets/img/homeImagenes/img12.png',
+      link: 'https://genmagic.net/visualflash.html?id=ordalfa1c'
+    },
+    {
+      id: 18,
+      title: 'Juego de Puzzle',
+      description: 'Mejora tus concentración jugando.',
+      image: './assets/img/homeImagenes/img7.png',
+      link: 'https://genmagic.net/visualflash.html?id=tripuzzle1c'
+    },
+    {
+      id: 19,
+      title: 'Pato Multiplicador',
+      description: 'Resuelve las operaciones de multiplicación antes que termine el tiempo y logra que el pato recorra toda la ciudad y gane el premio.',
+      image: './assets/img/homeImagenes/img14.png',
+      link: 'https://www.educaenvivo.com/juegos-educativos-online/pato-multiplicador/'
+    },
+    {
+      id: 20,
+      title: 'La Carrera de las Ranas',
+      description: 'Elige entre suma, resta, multiplicación y división para lograr que las ranas lleguen a la meta según la velocidad de tus respuestas.', 
+      image: './assets/img/homeImagenes/img15.png',
+      link: 'https://www.vedoque.com/juegos/matematicas/carreraranas/'
+    },
+    {
+      id: 21,
+      title: 'El Avión de las Palabras',
+      description: 'Dirige el avión a las palabras que le corresponden ya sea aguda, grave o llana y esdrújula logrando que llegue a la meta según la velocidad de tus respuestas.',
+      image: './assets/img/homeImagenes/img16.png',
+      link: 'https://wordwall.net/es/resource/8869766/palabras-esdr%C3%BAjulas-llanas-y-agudas'
+    },
+    {
+      id: 22,
+      title: 'Rompecabeza de Fracciones',
+      description: 'Coloca las piezas del rompecabeza de acuerdo a la fracción que corresponde y logra ganar puntos.',
+      image: './assets/img/homeImagenes/img50.png',
+      link: 'https://www.digipuzzle.net/digipuzzle/animals/puzzles/tilesmath_fractions_rev.htm?language=spanish&linkback=../../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
+    {
+      id: 23,
+      title: 'Compara las Fracciones',
+      description: 'Elige entre dos opciones de fracciones y logra ganar puntos, diviertete aprendiendo.',
+      image: './assets/img/homeImagenes/img51.png',
+      link: 'https://www.digipuzzle.net/minigames/mathcompare/mathcompare_fractions.htm?language=spanish&linkback=../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
+    {
+      id: 24,
+      title: 'Burbujas de Fracciones',
+      description: 'Lleva la carita feliz haciendo click sobre ella y elige todas las fracciones correctas tienes que evitar que las burbujas equivocadas te toquen.',
+      image: './assets/img/homeImagenes/img52.png',
+      link: 'https://www.digipuzzle.net/minigames/bubble/bubble_fractions.htm?language=spanish&linkback=../../es/juegoseducativos/mates-fracciones/index.htm'
+    },
   ]
 
   return (
