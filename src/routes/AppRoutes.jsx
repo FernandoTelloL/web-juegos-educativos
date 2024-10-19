@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { MainLayout } from '../layouts/MainLayout';
-import {  CommunicationGamesGrade1, CommunicationGamesGrade2, EntertainmentGrade1, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGamesGrade1, MathGamesGrade2, MathGamesInitial, MemoryGamesInitial, OtherGamesGrade1 } from '../pages';
+import {  CommunicationGamesGrade1, CommunicationGamesGrade2, EntertainmentGrade1, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGamesGrade1, MathGamesGrade2, MathGamesInitial, MemoryGamesInitial, OtherGamesGrade1, TodoGrade1 } from '../pages';
 
 
 export const AppRoutes = () => {
@@ -18,6 +18,7 @@ export const AppRoutes = () => {
         </Route>
 
         <Route path="/grade-1" element={<Grade1 />}>
+          <Route path="todo-grade1" element={<TodoGrade1 />} />
           <Route path="matematicas-grade1" element={<MathGamesGrade1 />} />
           <Route path="comunicacion-grade1" element={<CommunicationGamesGrade1 />} />
           <Route path="otros-grade1" element={<OtherGamesGrade1 />} />

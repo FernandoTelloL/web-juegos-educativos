@@ -1,34 +1,41 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { TodoGrade1 } from "./TodoGrade1";
 
 export const ActivitiesGrade1 = () => {
-  const [categorySelected, setCategorySelected] = useState(false);
+  const location = useLocation(); // Para obtener la ruta actual
 
   const categoriesList = [
     {
       id: 1,
+      title: "Todo",
+      link: "todo-grade1",
+      bgColor: "bg-orange-500",
+      bgColorHover: "bg-orange-600",
+    },
+    {
+      id: 2,
       title: "Matemáticas",
       link: "matematicas-grade1",
       bgColor: "bg-blue-500",
       bgColorHover: "bg-blue-600",
     },
     {
-      id: 2,
+      id: 3,
       title: "Comunicación",
       link: "comunicacion-grade1",
       bgColor: "bg-green-500",
       bgColorHover: "bg-green-600",
     },
     {
-      id: 3,
+      id: 4,
       title: "Otros",
       link: "otros-grade1",
       bgColor: "bg-yellow-500",
       bgColorHover: "bg-yellow-600",
     },
     {
-      id: 4,
+      id: 5,
       title: "Entretenimiento",
       link: "entretenimiento-grade1",
       bgColor: "bg-red-500",
@@ -36,9 +43,7 @@ export const ActivitiesGrade1 = () => {
     },
   ];
 
-  const handleClick = () => {
-    setCategorySelected(true);
-  };
+  const isTodoRoute = location.pathname === "/grade-1" || location.pathname.includes("todo-grade1");
 
   return (
     <section className="my-32 container mx-auto px-4 md:w-[80%]">
@@ -49,26 +54,23 @@ export const ActivitiesGrade1 = () => {
           <Link
             key={category.id}
             to={category.link}
-            className={`menu-button ${category.bgColor} hover:${category.bgColorHover} rounded-lg text-white py-3 px-6 text-lg font-semibold transition-all duration-300 transform hover:scale-105`}
-            onClick={handleClick}
+            className={` ${category.bgColor} hover:${category.bgColorHover} rounded-lg text-white py-3 px-6 text-lg font-semibold transition-all duration-300 transform hover:scale-105`}
             style={{ textDecoration: "none" }}
-            >
-              {category.title}
-            </Link>
+          >
+            {category.title}
+          </Link>
         ))}
       </div>
 
-
-      {/* Subtítulo o contenido del Outlet */}
+      {/* Mostrar TodoGrade1 o el Outlet según la ruta */}
       <div className="mt-10">
-        {!categorySelected && (
-          <div className="border-2 border-black rounded-xl p-8 md:p-14 h-52 md:h-60 flex items-center shadow-xl bg-blue-100">
-            <h2 className="text-xl md:text-3xl text-center font-bold">
-              POR FAVOR ELIJA UNA CATEGORIA PARA VISUALIZAR LAS ACTIVIDADES EDUCATIVAS
-            </h2>
-          </div>
+        {isTodoRoute ? (
+          // Mostrar TodoGrade1 si la ruta es "todo-grade1" o al iniciar en "/grade-1"
+          <TodoGrade1 />
+        ) : (
+          // Mostrar el Outlet si la ruta es cualquier otra
+          <Outlet />
         )}
-        <Outlet />
       </div>
     </section>
   );

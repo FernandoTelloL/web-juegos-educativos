@@ -315,7 +315,7 @@ export const PopularActivities = () => {
         <h2 className="text-left text-2xl font-bold mb-10">
           Actividades Más Populares
         </h2>
-        {/* Grid con 5 columnas */}
+        {/* Grid con 6 columnas */}
         <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
           {activities.map(activity => (
             <ActivityCard
