@@ -1,3 +1,11 @@
+export { EntertainmentGrade2 } from "./grade2/EntertainmentGrade2";
+
+
+
+export { OtherGamesGrade2 } from "./grade2/OtherGamesGrade2";
+
+export { AllGrade2 } from "./grade2/AllGrade2";
+
 export { TodoGrade1 } from "./grade1/TodoGrade1";
 
 export { CommunicationGamesGrade2 } from "./grade2/CommunicationGamesGrade2";

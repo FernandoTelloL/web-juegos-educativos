@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { MainLayout } from '../layouts/MainLayout';
-import {  CommunicationGamesGrade1, CommunicationGamesGrade2, EntertainmentGrade1, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGamesGrade1, MathGamesGrade2, MathGamesInitial, MemoryGamesInitial, OtherGamesGrade1, TodoGrade1 } from '../pages';
+import {  AllGrade2, CommunicationGamesGrade1, CommunicationGamesGrade2, EntertainmentGrade1, EntertainmentGrade2, Grade1, Grade2, Grade3, Grade4, Grade5, Grade6, HomePage, InitialGrade, MathGamesGrade1, MathGamesGrade2, MathGamesInitial, MemoryGamesInitial, OtherGamesGrade1, OtherGamesGrade2, TodoGrade1 } from '../pages';
 
 
 export const AppRoutes = () => {
@@ -26,10 +26,11 @@ export const AppRoutes = () => {
         </Route>
 
         <Route path="/grade-2" element={<Grade2 />} >
+          <Route path="todo-grade2" element={<AllGrade2 />} />
           <Route path="matematicas-grade2" element={<MathGamesGrade2 />} />
           <Route path="comunicacion-grade2" element={<CommunicationGamesGrade2/>} />
-          <Route path="otros-grade1" element={<OtherGamesGrade1/>} />
-          <Route path="entretenimiento-grade1" element={<EntertainmentGrade1/>} />
+          <Route path="otros-grade2" element={<OtherGamesGrade2/>} />
+          <Route path="entretenimiento-grade2" element={<EntertainmentGrade2/>} />
         </Route>
 
         <Route path="/grade-3" element={<Grade3 />} >
