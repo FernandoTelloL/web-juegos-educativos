@@ -54,7 +54,7 @@ export const ActivitiesGrade1 = () => {
           <Link
             key={category.id}
             to={category.link}
-            className={` ${category.bgColor} hover:${category.bgColorHover} rounded-lg text-white py-3 px-6 text-lg font-semibold transition-all duration-300 transform hover:scale-105`}
+            className={` ${category.bgColor} hover:${category.bgColorHover} shadow-lg  hover:shadow-black/60 shadow-black/40 rounded-lg text-white py-3 px-6 text-lg font-semibold transition-all duration-300 transform hover:scale-105`}
             style={{ textDecoration: "none" }}
           >
             {category.title}

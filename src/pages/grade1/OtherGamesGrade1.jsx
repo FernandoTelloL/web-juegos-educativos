@@ -56,14 +56,14 @@ export const OtherGamesGrade1 = () => {
     },
   ];
 
-  const itemsPerPage = 6; // Número de juegos a mostrar por página
+  const itemsPerPage = 48; // Número de juegos a mostrar por página
   const { currentItems, currentPage, maxPage, nextPage, prevPage } = usePagination(itemsPerPage, games);
 
   return (
     <>
       <h2 className="text-3xl md:text-2xl font-bold mb-6">OTROS</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
         {currentItems.map((game) => (
           <ActivityCard
             key={game.id}

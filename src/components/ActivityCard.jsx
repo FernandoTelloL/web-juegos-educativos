@@ -9,7 +9,7 @@ export const ActivityCard = ({ title, description, image, link, border = false }
     <a
       target="_blank"
       href={link}
-      className={`p-1 group block rounded-lg overflow-hidden relative transform transition-transform duration-300 hover:scale-110 bg-white ${border ? 'border border-gray-400' : 'border-none'} shadow-lg shadow-black/40 hover:shadow-2xl hover:shadow-black/80 `}
+      className={`p-1 group block rounded-lg overflow-hidden relative transform transition-transform duration-300 hover:scale-110 bg-white ${border ? 'border border-gray-400' : 'border-none'} shadow-lg shadow-black/40 hover:shadow-lg hover:shadow-black/40 `}
       onMouseEnter={hoverSound}
       rel="noopener noreferrer"
     >
