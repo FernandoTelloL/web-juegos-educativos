@@ -45,6 +45,7 @@ export const ActivitiesGrade3 = () => {
       bgColorHover: "bg-red-600",
     },
   ];
+  
   const isTodoRoute = location.pathname === "/grade-3" || location.pathname.includes("todo-grade3");
 
   return (

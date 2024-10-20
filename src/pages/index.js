@@ -1,3 +1,33 @@
+export { EntertainmentGrade6 } from "./grade6/EntertainmentGrade6";
+
+export { OtherGamesGrade6 } from "./grade6/OtherGamesGrade6";
+
+export { CommunicationGamesGrade6 } from "./grade6/CommunicationGamesGrade6";
+
+export { MathGamesGrade6 } from "./grade6/MathGamesGrade6";
+
+export { AllGrade6 } from "./grade6/AllGrade6";
+
+export { EntertainmentGrade5 } from "./grade5/EntertainmentGrade5";
+
+export { OtherGamesGrade5 } from "./grade5/OtherGamesGrade5";
+
+export { CommunicationGamesGrade5 } from "./grade5/CommunicationGamesGrade5";
+
+export { MathGamesGrade5 } from "./grade5/MathGamesGrade5";
+
+export { AllGrade5 } from "./grade5/AllGrade5";
+
+export { EntertainmentGrade4 } from "./grade4/EntertainmentGrade4";
+
+export { OtherGamesGrade4 } from "./grade4/OtherGamesGrade4";
+
+export { CommunicationGamesGrade4 } from "./grade4/CommunicationGamesGrade4";
+
+export { MathGamesGrade4 } from "./grade4/MathGamesGrade4";
+
+export { AllGrade4 } from "./grade4/AllGrade4";
+
 export { EntertainmentGrade3 } from "./grade3/EntertainmentGrade3";
 
 export { OtherGamesGrade3 } from "./grade3/OtherGamesGrade3";
@@ -9,8 +39,6 @@ export { CommunicationGamesGrade3 } from "./grade3/CommunicationGamesGrade3";
 export { MathGamesGrade3 } from "./grade3/MathGamesGrade3";
 
 export { EntertainmentGrade2 } from "./grade2/EntertainmentGrade2";
-
-
 
 export { OtherGamesGrade2 } from "./grade2/OtherGamesGrade2";
 
