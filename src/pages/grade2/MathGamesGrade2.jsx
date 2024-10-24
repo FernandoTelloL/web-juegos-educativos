@@ -113,6 +113,22 @@ const games = [
     link: "https://arbolabc.com/juegos-de-sumas/batalla-matematica",
     border: true,
   },
+  {
+    id: 15,
+    title: "Matemáticas de Halloween",
+    description: "Practica tus habilidades de suma, tendras que elegir las monedas correctas hasta obtener el monto requerido, tambien puedes borrar las monedas haciendo click sobre ellas.",
+    image: "./../assets/img/grade2-imagenes/halloween.png",
+    link: "https://www.cokitos.com/matematicas-de-halloween-sumas-y-restas/play/",
+    border: true,
+  },
+  {
+    id: 16,
+    title: "Guerro de Matemáticas",
+    description: "Dispara solo las respuestas correctas.",
+    image: "./../assets/img/grade2-imagenes/shooter.png",
+    link: "https://www.cokitos.com/math-shooter-disparos-de-numeros/play/",
+    border: true,
+  },
 ];
 
 const itemsPerPage = 48; // Número de juegos a mostrar por página

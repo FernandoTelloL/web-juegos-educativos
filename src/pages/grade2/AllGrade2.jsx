@@ -85,14 +85,22 @@ export const AllGrade2 = () => {
     },
     {
       id: 10,
-      title: "Suma de Monedas",
-      description: "Practica tus habilidades de suma, tendras que elegir las monedas correctas hasta obtener el monto requerido, tambien puedes borrar las monedas haciendo click sobre ellas.",
-      image: "./../assets/img/grade1Imagenes/img1.png",
-      link: "https://www.educaenvivo.com/juegos-educativos-online/juego-euros-online-primaria/",
+      title: "Matemáticas de Halloween",
+      description: "Construye tu monstruo con las matemáticas.",
+      image: "./../assets/img/grade2-imagenes/halloween.png",
+      link: "https://www.cokitos.com/matematicas-de-halloween-sumas-y-restas/play/",
       border: true,
     },
     {
       id: 11,
+      title: "Guerro de Matemáticas",
+      description: "Dispara solo las respuestas correctas.",
+      image: "./../assets/img/grade2-imagenes/shooter.png",
+      link: "https://www.cokitos.com/math-shooter-disparos-de-numeros/play/",
+      border: true,
+    },
+    {
+      id: 12,
       title: "Escribe las Vocales que Faltan",
       description: "Escribe las vocales que faltan y escribe correctamente los nombres de los animales, practica tus habilidades de escritura y diviertete.",
       image: "./../assets/img/grade1Imagenes/img14.png",
@@ -100,7 +108,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 12,
+      id: 13,
       title: "Encuentra las Letras Escondidas",
       description: "Encuentra las letras que estan escondidas en la imagen, hazlo más rapido que tus compañeros y diviertete.",
       image: "./../assets/img/grade1Imagenes/img15.png",
@@ -108,7 +116,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 13,
+      id: 14,
       title: "Encuentra huesos con Fido",
       description: "Ayuda a Fido a atrapar todos los huesos y seguir avanzando de nivel, tambien tienes que ordenar las silabas de unas palabras para que Fido pueda seguir en su búsqueda.",
       image: "./../assets/img/grade1Imagenes/img16.png",
@@ -116,7 +124,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 14,
+      id: 15,
       title: "Atrapa al Topo",
       description: "Un juego rapido en donde debes hacer click únicamente en los topos que tienen una vocal, al final se premiará a los alumnos que tengan más puntos.",
       image: "./../assets/img/grade1Imagenes/img17.png",
@@ -124,7 +132,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 15,
+      id: 16,
       title: "Puzzle Mágico",
       description: 'Mejora tus concentración jugando a armar este puzzle de forma rápida y divertida. Asi desarrollarás tus habilidades de memoria y concentración.', 
       image: "./../assets/img/grade1Imagenes/img18.png",
@@ -132,7 +140,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 16,
+      id: 17,
       title: "Completa el Rompecabezas",
       description: "Usa tus conocimientos en el abecedario para poder armar el rompecabezas, eligiendo las letras correctas en los espacios restantes.", 
       image: "./../assets/img/grade1Imagenes/img19.png",
@@ -140,7 +148,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 17,
+      id: 18,
       title: "Escoge las Palabras Según sus Sílabas",
       description: "Selecciona las palabras que tengan la cantidad indicada de silabas, utiliza el click y acumula más puntos que tus compañeros.",
       image: "./../assets/img/grade2-imagenes/img39.png",
@@ -148,7 +156,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 18,
+      id: 19,
       title: "Ordena Silabas con el Señor Ratón",
       description: "Ordena las silabas que faltan y ayuda a que el señor ratón llegue a su destino, diviertete y practica tus habilidades con las palabras.",
       image: "./../assets/img/grade1Imagenes/img7.png",
@@ -156,7 +164,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 19,
+      id: 20,
       title: "Colorea por Letas",
       description: "Colorea diferentes dibujos utilizando los colores de la letra, practica tus habilidades de coloración y abecedario divirtiendote.",
       image: "./../assets/img/grade1Imagenes/img9.png",
@@ -164,7 +172,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 20,
+      id: 21,
       title: "Busca Letras",
       description: "Encuentra las letras que se te pide y obtiene mas puntos que tus amigos, diviertete y aprendre el abecedario.",
       image: "./../assets/img/grade1Imagenes/img10.png",
@@ -172,7 +180,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 21,
+      id: 22,
       title: "Encuentra Animales y sus Iniciales",
       description: "Diviertete encontrando la pareja de los animales y sus iniciales, desarrolla tu memoria y concentración, desbloquea más niveles que tus compañeros.",
       image: "./../assets/img/grade1Imagenes/img11.png",
@@ -180,7 +188,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 22,
+      id: 23,
       title: "Une Puntos y descrubre el secreto",
       description: "Une los puntos siguiendo las letras en orden alfabético y descubre que personaje se esconde, hazlo más rápido que tus compañeros y demuestra tus habilidades.",
       image: "./../assets/img/grade1Imagenes/img12.png",
@@ -188,7 +196,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 23,
+      id: 24,
       title: "Vocales en las Nubes",
       description: "Usa las flechas del teclado para obtener todas las nubes con vocales, hazlo en el menor tiempo posible, al final se comparará con tus compañeros y se creará un ranking.",
       image: "./../assets/img/grade1Imagenes/img13.png",
@@ -196,7 +204,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 24,
+      id: 25,
       title: "Números Pares e Impares",
       description:
         "Juega a adivinar números pares e impares y obten el mayor número de puntos, revienta solo los globos correctos y aprende divirtiendote.",
@@ -205,7 +213,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 25,
+      id: 26,
       title: "Rebasa los obstáculos",
       description: "Utiliza solo las flechas para atras y adelante y barra espaciadora para maniobrar tu auto y lograr evadir los obstáculos. Anímate a desarrollar tus habilidades de coordinación entre el ojo y la mano.", 
       image: "./../assets/img/grade1Imagenes/img21.png",
@@ -213,7 +221,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 26,
+      id: 27,
       title: "Colorea Como Quieras",
       description: "Es momento de hacer estallar tu imaginación, colorea las imagenes a tu gusto y diviertete.",
       image: "./../assets/img/grade1Imagenes/img22.png",
@@ -221,7 +229,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 27,
+      id: 28,
       title: "LLeva a la Madre con su Hijo",
       description: "Haz click sobre la madre y arrástrala hasta el hijo, completa todas las imágenes y pasa al siguiente nivel. Este juego te permite desarrollar tus habilidades de memoria y concentración.",
       image: "./../assets/img/grade1Imagenes/img23.png",
@@ -229,7 +237,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 28,
+      id: 29,
       title: "Ordena las Letras en el Bus",
       description: 'Ordena las palabras den las diferentes ventanas de los buses, desarrolla tu imaginación y habilidades con las palabras.', 
       image: "./../assets/img/grade1Imagenes/img24.png",
@@ -237,7 +245,7 @@ export const AllGrade2 = () => {
       border: true,
     },
     {
-      id: 29,
+      id: 30,
       title: "Ordena los Números y Descubre al Dinosaurio",
       description: "Utiliza tus habilidades matemáticas para ordenar los números rápidamente y descrubre que dinosaurio esta escondido.", 
       image: "./../assets/img/grade1Imagenes/img25.png",
