@@ -97,6 +97,22 @@ const games = [
     link: "https://www.educaenvivo.com/juegos-educativos-online/juego-euros-online-primaria/",
     border: true,
   },
+  {
+    id: 13,
+    title: "Galeon Submarino de Sumas",
+    description: "completa las sumas antes que acabe el tiempo.",
+    image: "./../assets/img/grade2-imagenes/galeon.png",
+    link: "https://arbolabc.com/juegos-de-sumas/galeon-sumario",
+    border: true,
+  },
+  {
+    id: 14,
+    title: "Batalla de Matemáticas",
+    description: "Ayudanos a saber cuantos animales de la primavera hay en tu zona, practica tus habilidades de suma y diviertete.",
+    image: "./../assets/img/grade2-imagenes/batalla.png",
+    link: "https://arbolabc.com/juegos-de-sumas/batalla-matematica",
+    border: true,
+  },
 ];
 
 const itemsPerPage = 48; // Número de juegos a mostrar por página
